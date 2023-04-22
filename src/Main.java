@@ -1,6 +1,9 @@
 import javax.swing.*;
+import java.util.*;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Locale;
+
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -70,7 +73,7 @@ public class Main {
         System.out.print("The hypothenuse is "+c);*/
 
         // if statements
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
         if(age >= 18){
@@ -82,6 +85,22 @@ public class Main {
         }
         else {
             System.out.println("You are not an adult");
+        }*/
+
+        // Switch
+        Scanner scanner = new Scanner(System.in);
+        // set the locale corresponding to english
+        System.out.println("Enter a day of the week: ");
+        String day = scanner.nextLine();
+        switch (day.toLowerCase()) {
+            case "sunday" -> System.out.println("it's Sunday !");
+            case "monday" -> System.out.println("it's Monday !");
+            case "tuesday" -> System.out.println("it's Tuesday !");
+            case "wednesday" -> System.out.println("it's Wednesday !");
+            case "thursday" -> System.out.println("it's Thursday !");
+            case "friday" -> System.out.println("it's Friday !");
+            case "saturday" -> System.out.println("it's Saturday !");
+            default -> System.out.println("Wrong day of the week !");
         }
     }
 }
