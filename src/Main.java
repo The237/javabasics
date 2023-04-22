@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Random;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -52,7 +53,7 @@ public class Main {
         JOptionPane.showMessageDialog(null,"You're "+height+" cm tall");*/
 
         // Math methods
-        double x = 3.14;
+        /*double x = 3.14;
         double y = -10;
         double  z = Math.round(x);
         System.out.println(z);
@@ -66,6 +67,21 @@ public class Main {
         System.out.println("Enter side a: ");
         b = scanner.nextDouble();
         c = Math.sqrt((a*a)+(b*b));
-        System.out.print("The hypothenuse is "+c);
+        System.out.print("The hypothenuse is "+c);*/
+
+        // if statements
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your age: ");
+        int age = scanner.nextInt();
+        if(age >= 18){
+            System.out.println("You are an adult");
+        } else if(age>=75) {
+            System.out.println("You are an enemy");
+        } else if(age>=18) {
+            System.out.println("You are an enemy");
+        }
+        else {
+            System.out.println("You are not an adult");
+        }
     }
 }
