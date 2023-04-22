@@ -88,7 +88,7 @@ public class Main {
         }*/
 
         // Switch
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         // set the locale corresponding to english
         System.out.println("Enter a day of the week: ");
         String day = scanner.nextLine();
@@ -101,6 +101,22 @@ public class Main {
             case "friday" -> System.out.println("it's Friday !");
             case "saturday" -> System.out.println("it's Saturday !");
             default -> System.out.println("Wrong day of the week !");
+        }*/
+
+        // Loops
+        Scanner scanner = new Scanner(System.in);
+        String name = "";
+        while (name.isBlank()){
+            System.out.print("Enter your name: ");
+            name = scanner.nextLine();
+        }
+        System.out.print("hello "+name+" you are in !");
+
+        int number;
+        System.out.print("Enter a number to multiply : ");
+        number = scanner.nextInt();
+        for(int i=0;i<11;i++){
+            System.out.println(number +" x "+ i +" = " + number*i);
         }
     }
 }
