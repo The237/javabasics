@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -26,7 +27,7 @@ public class Main {
         System.out.println("y: "+y);
 
         // get user input
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name ?");
         String name  = scanner.nextLine();
         System.out.print("How old are you ?");
@@ -38,6 +39,16 @@ public class Main {
 
         System.out.println("Hello "+ name);
         System.out.println("You are "+ age + " years old");
-        System.out.println("You like  "+food);
+        System.out.println("You like  "+food);*/
+
+        // GUI program
+        String name = JOptionPane.showInputDialog("Input your name");
+        JOptionPane.showMessageDialog(null,"Hello "+name);
+
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        JOptionPane.showMessageDialog(null,"You're "+age+" years old");
+
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        JOptionPane.showMessageDialog(null,"You're "+height+" cm tall");
     }
 }
