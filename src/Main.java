@@ -104,7 +104,7 @@ public class Main {
         }*/
 
         // Loops
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         String name = "";
         while (name.isBlank()){
             System.out.print("Enter your name: ");
@@ -117,6 +117,26 @@ public class Main {
         number = scanner.nextInt();
         for(int i=0;i<11;i++){
             System.out.println(number +" x "+ i +" = " + number*i);
+        }*/
+
+        // Arrays
+        int[] cars = {0,4,7,10,45,74,4,23};
+        for (int car : cars) {
+            System.out.println(car);
         }
+
+        int carsOfCars[][] = new int[3][4];
+        for(int i=0;i<3;i++)
+            for(int j=0;j<4;j++)
+                carsOfCars[i][j] = i*j;
+
+        for(int i=0;i<3;i++){
+            System.out.println();
+            for(int j=0;j<4;j++) {
+                System.out.print(carsOfCars[i][j]+" ");
+            }
+        }
+
+
     }
 }
