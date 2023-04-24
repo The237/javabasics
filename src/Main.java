@@ -189,10 +189,23 @@ public class Main {
         }*/
 
         // Methods overloads in java
-        int x = add(1,-4,2,8);
+        /*int x = add(1,-4,2,8);
         System.out.println(x);
         double y = add(4,3);
-        System.out.println(y);
+        System.out.println(y);*/
+
+        // printf method
+        boolean myBoolean = true;
+        char myChar = '@';
+        String myString = "Bro is an excellent programmer";
+        int myInt = 50;
+        double myDouble = 1000;
+
+        System.out.printf("%b\n",myBoolean);
+        System.out.printf("%c\n",myChar);
+        System.out.printf("%3s\n",myString);
+        System.out.printf("%d\n",myInt);
+        System.out.printf("%.3f",myDouble);
     }
 
     //Methods in java
