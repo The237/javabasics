@@ -253,6 +253,14 @@ public class Main {
         Friend[] friends = {new Friend("OWONA"),new Friend("PAPA"), new Friend("OKALA")};
         Friend.displayFriends();*/
 
+        // Inheritance
+         Car2 car = new Car2();
+         car.go();
+
+         Bycicle bike = new Bycicle();
+         bike.stop();
+         System.out.println(car.doors);
+         System.out.println(bike.pedals);
     }
     //Methods in java
     static void helloWorld(String name, int age){
