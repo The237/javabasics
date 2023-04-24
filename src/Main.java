@@ -120,7 +120,7 @@ public class Main {
         }*/
 
         // Arrays
-        int[] cars = {0,4,7,10,45,74,4,23};
+        /*int[] cars = {0,4,7,10,45,74,4,23};
         for (int car : cars) {
             System.out.println(car);
         }
@@ -135,8 +135,19 @@ public class Main {
             for(int j=0;j<4;j++) {
                 System.out.print(carsOfCars[i][j]+" ");
             }
-        }
+        }*/
 
+        // ArrayList
+        ArrayList<String> food = new ArrayList<String>();
+        food.add("pizza");
+        food.add("hamburger");
+        food.add("hot-dog");
+        food.set(0,"Sandwich");
+        food.remove(2);
+        // food.clear();
+        for(String f:food ){
+            System.out.println(f);
+        }
 
     }
 }
