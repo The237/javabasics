@@ -149,5 +149,30 @@ public class Main {
             System.out.println(f);
         }
 
+        // 2D ArrayList
+        ArrayList<String> bakeryList = new ArrayList<String>();
+        bakeryList.add("pasta");
+        bakeryList.add("garlic bread");
+        bakeryList.add("donuts");
+
+        ArrayList<String> produceList = new ArrayList<String>();
+        produceList.add("tomato");
+        produceList.add("Zucchini");
+        produceList.add("peppers");
+
+        ArrayList<String> drinksList = new ArrayList<String>();
+        drinksList.add("Soda");
+        drinksList.add("Coca");
+        drinksList.add("Coffee");
+        drinksList.add("Water");
+
+        System.out.println(drinksList);
+
+        ArrayList<ArrayList<String>> groceryList = new ArrayList();
+        groceryList.add(bakeryList);
+        groceryList.add(produceList);
+        groceryList.add(drinksList);
+        System.out.println(groceryList);
+        System.out.println(groceryList.get(0).get(1));
     }
 }
