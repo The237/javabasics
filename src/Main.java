@@ -232,10 +232,21 @@ public class Main {
 
         // Global and local
         //DiceRoller diceRoller = new DiceRoller();
-        Pizza pizza = new Pizza();
+        /*Pizza pizza = new Pizza();
         System.out.println("Here are the ingredients of your pizza");
         pizza.bread ="papa";
-        System.out.println(pizza.toString());
+        System.out.println(pizza.toString());*/
+
+        // Table of objects
+        // Food[] refrigarator = new Food[3];
+        /*Food f1 = new Food("Cucumber");
+        Food f2 = new Food("Pepper");
+        Food f3 = new Food("Watermelon");
+
+        Food[] refrigarator = {f1,f2,f3};
+
+        System.out.print(refrigarator[2].name);*/
+
 
     }
     //Methods in java
