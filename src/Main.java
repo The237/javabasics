@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.lang.constant.Constable;
 import java.util.*;
 import java.util.Random;
 import java.util.Scanner;
@@ -195,7 +196,7 @@ public class Main {
         System.out.println(y);*/
 
         // printf method
-        boolean myBoolean = true;
+        /*boolean myBoolean = true;
         char myChar = '@';
         String myString = "Bro is an excellent programmer";
         int myInt = 50;
@@ -205,9 +206,24 @@ public class Main {
         System.out.printf("%c\n",myChar);
         System.out.printf("%3s\n",myString);
         System.out.printf("%d\n",myInt);
-        System.out.printf("%.3f",myDouble);
-    }
+        System.out.printf("%.3f",myDouble);*/
 
+        /*final double PI = 3.14;
+
+        System.out.println(PI);*/
+
+        // OOP
+        Car mycar = new Car();
+        System.out.println(mycar.color);
+        System.out.println(mycar.model);
+        System.out.println(mycar.make);
+        System.out.println(mycar.year);
+        System.out.println(mycar.price);
+
+        mycar.drive();
+        mycar.brake();
+
+    }
     //Methods in java
     static void helloWorld(String name, int age){
         System.out.println("Hello "+name+ " you're "+age+" old");
