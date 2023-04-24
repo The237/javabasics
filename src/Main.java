@@ -188,6 +188,11 @@ public class Main {
             multiply(x,i);
         }*/
 
+        // Methods overloads in java
+        int x = add(1,-4,2,8);
+        System.out.println(x);
+        double y = add(4,3);
+        System.out.println(y);
     }
 
     //Methods in java
@@ -199,5 +204,23 @@ public class Main {
         System.out.println(x +" x " + i + " = "+x*i);
     }
 
+    // Overloads Methods in java
+    static int add(int a, int b){
+        System.out.println("This is overloaded method #1");
+        return (a+b);
+    }
 
+    static int add(int a, int b, int c){
+        System.out.println("This is overloaded method #2");
+        return (a+b+c);
+    }
+    static int add(int a, int b, int c,int d){
+        System.out.println("This is overloaded method #3");
+        return (a+b+c+d);
+    }
+
+    static double add(double a, double b){
+        System.out.println("This is overloaded method #4");
+        return (a+b);
+    }
 }
