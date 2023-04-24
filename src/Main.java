@@ -247,6 +247,11 @@ public class Main {
 
         System.out.print(refrigarator[2].name);*/
 
+        /*
+        Friend f1 = new Friend("OWONA");
+        Friend f2 = new Friend("BOKENGE");
+        Friend[] friends = {new Friend("OWONA"),new Friend("PAPA"), new Friend("OKALA")};
+        Friend.displayFriends();*/
 
     }
     //Methods in java
