@@ -224,14 +224,14 @@ public class Main {
         mycar.brake();*/
 
         // OOP : Handle constructors
-        Human h = new Human("Rick",65,86.4);
+        /*Human h = new Human("Rick",65,86.4);
         Human h2 = new Human("ABEGA",45,78);
         System.out.println(h.name);
         h2.eat();
-        h2.drink();
+        h2.drink();*/
 
-
-
+        // Global and local
+        DiceRoller diceRoller = new DiceRoller();
     }
     //Methods in java
     static void helloWorld(String name, int age){
