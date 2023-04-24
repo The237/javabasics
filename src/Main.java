@@ -213,7 +213,7 @@ public class Main {
         System.out.println(PI);*/
 
         // OOP
-        Car mycar = new Car();
+        /*Car mycar = new Car();
         System.out.println(mycar.color);
         System.out.println(mycar.model);
         System.out.println(mycar.make);
@@ -221,7 +221,16 @@ public class Main {
         System.out.println(mycar.price);
 
         mycar.drive();
-        mycar.brake();
+        mycar.brake();*/
+
+        // OOP : Handle constructors
+        Human h = new Human("Rick",65,86.4);
+        Human h2 = new Human("ABEGA",45,78);
+        System.out.println(h.name);
+        h2.eat();
+        h2.drink();
+
+
 
     }
     //Methods in java
