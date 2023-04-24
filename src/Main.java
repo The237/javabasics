@@ -176,7 +176,7 @@ public class Main {
         System.out.println(groceryList.get(0).get(1));*/
 
         // Methods in java
-        int age = 21;
+        /*int age = 21;
         String name="OWONA";
         helloWorld(name,age);
 
@@ -186,9 +186,11 @@ public class Main {
         System.out.println("Table de multiplication de "+x);
         for (int i = 0; i <= 10; i++) {
             multiply(x,i);
-        }
+        }*/
 
     }
+
+    //Methods in java
     static void helloWorld(String name, int age){
         System.out.println("Hello "+name+ " you're "+age+" old");
     }
@@ -196,4 +198,6 @@ public class Main {
     static void multiply(int x, int i){
         System.out.println(x +" x " + i + " = "+x*i);
     }
+
+
 }
