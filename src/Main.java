@@ -254,13 +254,17 @@ public class Main {
         Friend.displayFriends();*/
 
         // Inheritance
-         Car2 car = new Car2();
+        /* Car2 car = new Car2();
          car.go();
 
          Bycicle bike = new Bycicle();
          bike.stop();
          System.out.println(car.doors);
-         System.out.println(bike.pedals);
+         System.out.println(bike.pedals);*/
+
+        // Methods overriding
+        Dog dog = new Dog();
+        dog.speak();
     }
     //Methods in java
     static void helloWorld(String name, int age){
