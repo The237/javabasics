@@ -231,7 +231,12 @@ public class Main {
         h2.drink();*/
 
         // Global and local
-        DiceRoller diceRoller = new DiceRoller();
+        //DiceRoller diceRoller = new DiceRoller();
+        Pizza pizza = new Pizza();
+        System.out.println("Here are the ingredients of your pizza");
+        pizza.bread ="papa";
+        System.out.println(pizza.toString());
+
     }
     //Methods in java
     static void helloWorld(String name, int age){
