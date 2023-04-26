@@ -263,8 +263,13 @@ public class Main {
          System.out.println(bike.pedals);*/
 
         // Methods overriding
-        Dog dog = new Dog();
-        dog.speak();
+        /*Dog dog = new Dog();
+        dog.speak();*/
+
+        // Handle abstract classes
+        // VehiculeAbstract vehicule = new VehiculeAbstract() ();
+        CarAbstract car = new CarAbstract();
+        car.go();
     }
     //Methods in java
     static void helloWorld(String name, int age){
