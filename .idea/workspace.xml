@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Encapsulation">
+    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Copy of objects and code a copy ctor">
+      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hawk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarEncapsulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -25,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2OmMqumvLjOYFI41Dtepyclzip6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -132,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682586341251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Handle: Copy of objects and code a copy ctor">
+      <created>1682587274528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682587274528</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,7 +156,8 @@
     <MESSAGE value="Handle: abstract classes" />
     <MESSAGE value="Handle: Basics of Access Modifiers" />
     <MESSAGE value="Handle: Encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle: Encapsulation" />
+    <MESSAGE value="Handle: Copy of objects and code a copy ctor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle: Copy of objects and code a copy ctor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
