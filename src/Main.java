@@ -4,6 +4,10 @@ import java.util.*;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Locale;
+
+import dynPolymorphism.Animal;
+import dynPolymorphism.Cat;
+import dynPolymorphism.Dog;
 import polymoprphism.Car;
 import polymoprphism.Bicycle;
 import polymoprphism.Boat;
@@ -312,7 +316,7 @@ public class Main {
         fish.hunt();*/
 
         // Polymorphism
-        Car car = new Car();
+        /*Car car = new Car();
         Bicycle bicycle = new Bicycle();
         Boat boat = new Boat();
         Vehicule vehicule = new Vehicule();
@@ -320,7 +324,47 @@ public class Main {
         Vehicule cars[] = {car, bicycle, boat, vehicule};
         for(Vehicule v : cars ){
             v.go();
+        }*/
+
+        // Dynamic polymorphism , declare the class of an object after the compilation step
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.println("What animal do you want ? (1 = Dog) or (2 = Cat) : ");
+        Animal animal;
+        int choice = scanner.nextInt();
+        if(choice == 1){
+            animal = new Dog();
+        }else if(choice ==2) {
+            animal = new Cat();
         }
+        else {
+            animal = new Animal();
+            System.out.println("That choice was invalid");
+        }
+        animal.speak();*/
+
+        // Exceptions
+        /*Scanner scanner =new Scanner(System.in);
+
+        try
+        {
+            System.out.println("Enter a whole number to divide: ");
+            int x = scanner.nextInt();
+            System.out.println("Enter a whole number to divide by : ");
+            int y = scanner.nextInt();
+            int z = x / y;
+            System.out.println("result : " + x);
+        }catch (ArithmeticException e){
+            System.out.println("You can't divide by 0! ");
+        }
+        catch(InputMismatchException e){
+            System.out.println("Please enter a whole number ! ");
+        }
+        catch (Exception e){
+            System.out.println("Something went wrong !");
+        }
+        finally {
+            scanner.close();
+        }*/
     }
     //Methods in java
     static void helloWorld(String name, int age){
