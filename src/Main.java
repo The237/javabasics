@@ -271,7 +271,10 @@ public class Main {
         /*CarAbstract car = new CarAbstract();
         car.go();*/
 
-
+        CarEncapsulation carE = new CarEncapsulation("Chevrolet","Camaro",2021);
+        System.out.println(carE.getMake());
+        carE.setMake("Chevrolet0");
+        System.out.println(carE.toString());
     }
     //Methods in java
     static void helloWorld(String name, int age){
