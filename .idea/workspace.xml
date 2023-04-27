@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: methods overriding in Java">
-      <change afterPath="$PROJECT_DIR$/src/CarAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VehiculeAbstract.java" afterDir="false" />
+    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: abstract classes">
+      <change afterPath="$PROJECT_DIR$/src/package1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package2/ASub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package2/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -40,7 +42,33 @@
     "onboarding.tips.debug.path": "D:/Codes/Java/HelloWorld/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ASub">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="package1.A" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="package1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="package2.ASub" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="package2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HelloWorld" />
@@ -50,6 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ASub" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -84,14 +114,22 @@
       <option name="project" value="LOCAL" />
       <updated>1682338515357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Handle: abstract classes">
+      <created>1682517757984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682517757984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Handle: static variables in classes" />
     <MESSAGE value="Handle: inheritance in Java" />
     <MESSAGE value="Handle: methods overriding in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle: methods overriding in Java" />
+    <MESSAGE value="Handle: abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle: abstract classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

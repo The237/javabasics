@@ -268,8 +268,10 @@ public class Main {
 
         // Handle abstract classes
         // VehiculeAbstract vehicule = new VehiculeAbstract() ();
-        CarAbstract car = new CarAbstract();
-        car.go();
+        /*CarAbstract car = new CarAbstract();
+        car.go();*/
+
+
     }
     //Methods in java
     static void helloWorld(String name, int age){
