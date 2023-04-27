@@ -4,6 +4,10 @@ import java.util.*;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Locale;
+import polymoprphism.Car;
+import polymoprphism.Bicycle;
+import polymoprphism.Boat;
+import polymoprphism.Vehicule;
 
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -297,7 +301,7 @@ public class Main {
         System.out.println(carE1.getYear());*/
 
         // Interfaces
-        Rabbit rabbit = new Rabbit();
+        /*Rabbit rabbit = new Rabbit();
         rabbit.flee();
 
         Hawk hawk = new Hawk();
@@ -305,7 +309,18 @@ public class Main {
 
         Fish fish = new Fish();
         fish.flee();
-        fish.hunt();
+        fish.hunt();*/
+
+        // Polymorphism
+        Car car = new Car();
+        Bicycle bicycle = new Bicycle();
+        Boat boat = new Boat();
+        Vehicule vehicule = new Vehicule();
+
+        Vehicule cars[] = {car, bicycle, boat, vehicule};
+        for(Vehicule v : cars ){
+            v.go();
+        }
     }
     //Methods in java
     static void helloWorld(String name, int age){
