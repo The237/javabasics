@@ -10,6 +10,11 @@ public class CarEncapsulation {
         this.year = year;
     }
 
+    // Copy constructor
+    public CarEncapsulation(CarEncapsulation x){
+          this.copy(x);
+    }
+
     public String getMake() {
         return make;
     }
@@ -41,5 +46,11 @@ public class CarEncapsulation {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public void copy(CarEncapsulation x){
+        this.make = x.make;
+        this.model = x.model;
+        this.year = x.year;
     }
 }

@@ -271,10 +271,30 @@ public class Main {
         /*CarAbstract car = new CarAbstract();
         car.go();*/
 
-        CarEncapsulation carE = new CarEncapsulation("Chevrolet","Camaro",2021);
+        // Encapsulation
+        /*CarEncapsulation carE = new CarEncapsulation("Chevrolet","Camaro",2021);
         System.out.println(carE.getMake());
         carE.setMake("Chevrolet0");
-        System.out.println(carE.toString());
+        System.out.println(carE.toString());*/
+
+        // Copy of objects
+        /*CarEncapsulation carE1 = new CarEncapsulation("Chevrolet","Camaro",2021);
+        // CarEncapsulation carE2 = new CarEncapsulation("Ford","Mustang",2018);
+
+        //carE2.copy(carE1);
+
+        // With the copy constructor
+        CarEncapsulation carE2 = new CarEncapsulation(carE1);
+
+        System.out.println(carE1);
+        System.out.println(carE2);
+        // print their properties
+        System.out.println(carE1.getMake());
+        System.out.println(carE1.getModel());
+        System.out.println(carE1.getYear());
+        System.out.println(carE1.getMake());
+        System.out.println(carE1.getModel());
+        System.out.println(carE1.getYear());*/
     }
     //Methods in java
     static void helloWorld(String name, int age){
