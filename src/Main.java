@@ -1,23 +1,10 @@
-import javax.swing.*;
-import java.lang.constant.Constable;
-import java.util.*;
-import java.util.Random;
-import java.util.Scanner;
-import java.util.Locale;
-
-import dynPolymorphism.Animal;
-import dynPolymorphism.Cat;
-import dynPolymorphism.Dog;
-import polymoprphism.Car;
-import polymoprphism.Bicycle;
-import polymoprphism.Boat;
-import polymoprphism.Vehicule;
+import java.io.*;
 
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // first test
         /*System.out.print("Hello World");
         // variables
@@ -364,6 +351,45 @@ public class Main {
         }
         finally {
             scanner.close();
+        }*/
+
+        // files
+        // File reading
+        /*File file = new File("secret_message.txt");
+        if(file.exists()){
+            System.out.println("That file exists! ");
+            System.out.println(file.getAbsolutePath());
+            file.delete();
+        }else {
+            System.out.println("That doesn't file exists! ");
+        }
+
+        // File writer
+        try
+        {
+            FileWriter writer = new FileWriter("poem.txt ");
+            writer.write("Roses are red \nViolets are violet \nBooty booty booty \nRockin' everywhere");
+            writer.append("\nA poem by us");
+            writer.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
+        // File reader
+        try {
+            FileReader reader = new FileReader("poem.txt");
+            int data = reader.read();
+            while (data !=-1){
+                System.out.print((char)data);
+                data = reader.read();
+            }
+            reader.close();
+        }
+        catch (FileNotFoundException e){
+            e.printStackTrace();
+        }
+        catch (IOException e){
+            e.printStackTrace();
         }*/
     }
     //Methods in java
