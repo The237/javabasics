@@ -1,3 +1,5 @@
+import javax.swing.*;
+import java.awt.*;
 import java.io.*;
 
 
@@ -391,6 +393,22 @@ public class Main {
         catch (IOException e){
             e.printStackTrace();
         }*/
+
+        // JFrame
+        /*JFrame frame = new JFrame();
+        frame.setSize(420,420);
+        frame.setTitle("JFrame title goes here");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // exit out of application
+        frame.setResizable(false); // remove resizable
+        frame.setVisible(true); // Make frame visible
+        frame.getContentPane().setBackground(new Color(15,18,36)); // change color background
+
+        // read the logo
+        ImageIcon image = new ImageIcon("logo.jpg");
+        frame.setIconImage(image.getImage());*/
+
+        // new MyFrame();
+
     }
     //Methods in java
     static void helloWorld(String name, int age){
