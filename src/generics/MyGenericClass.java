@@ -1,7 +1,7 @@
 package generics;
 
 // Generic class with 2 parameters
-public class MyGenericClass <Thing, Thing2>{
+public class MyGenericClass <Thing extends Number, Thing2>{
     Thing x;
     Thing2 y;
 

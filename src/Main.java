@@ -1,3 +1,4 @@
+import Serializer.User;
 import generics.*;
 
 import javax.swing.*;
@@ -9,7 +10,7 @@ import java.io.*;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         // first test
         /*System.out.print("Hello World");
         // variables
@@ -489,8 +490,7 @@ public class Main {
         System.out.println(getFirst(stringArray));*/
 
         // Generic classes
-
-        MyIntegerClass myInt = new MyIntegerClass(1);
+        /*MyIntegerClass myInt = new MyIntegerClass(1);
         MyDoubleClass myDouble = new MyDoubleClass(3.14);
         MyCharacterClass myChar = new MyCharacterClass('@');
         MyStringClass myString = new MyStringClass("OWONA");
@@ -509,11 +509,40 @@ public class Main {
         System.out.println(myIntG.getY());
         System.out.println(myDoubleG.getY());
         System.out.println(myCharG.getY());
-        System.out.println(myStringG.getY());
+        System.out.println(myStringG.getY());*/
 
         // Same thing as a hashmap
 
+        // Bounded types (coerce the data type of the Thing you want to pass to your Generic
+        /*MyGenericClass<Integer, Character> myIntG = new MyGenericClass<>(1,'A');
+        MyGenericClass<Double, Double> myDoubleG = new MyGenericClass<>(3.14,1.01);
+        MyGenericClass<Double, Integer> myCharG = new MyGenericClass<>(11.5,3);
+        MyGenericClass<Integer, Character> myStringG = new MyGenericClass<>(60,'X');
 
+        System.out.println(myIntG.getY());
+        System.out.println(myDoubleG.getY());
+        System.out.println(myCharG.getY());
+        System.out.println(myStringG.getY());*/
+
+        // Serialization
+        /*User user = new User();
+        user.name = "OWONA";
+        user.password = "Core@7P";
+        FileOutputStream fileOutputStream = new FileOutputStream("userInfos.ser");
+        ObjectOutputStream out = new ObjectOutputStream(fileOutputStream);
+        out.writeObject(user);
+        out.close();
+        fileOutputStream.close();
+        System.out.println("object infos saved ! :)");*/
+
+        // Deserialization
+        User user = null;
+        FileInputStream fileIn = new FileInputStream("userInfos.ser");
+        ObjectInputStream in = new ObjectInputStream(fileIn);
+        user = (User) in.readObject();
+        in.close();
+        fileIn.close();
+        System.out.println(ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID());
     }
 
     // print the content of different arrays of type Thing
