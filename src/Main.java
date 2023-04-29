@@ -1,3 +1,5 @@
+import generics.*;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
@@ -485,6 +487,33 @@ public class Main {
         System.out.println(getFirst(charArray));
         System.out.println(getFirst(doubleArray));
         System.out.println(getFirst(stringArray));*/
+
+        // Generic classes
+
+        MyIntegerClass myInt = new MyIntegerClass(1);
+        MyDoubleClass myDouble = new MyDoubleClass(3.14);
+        MyCharacterClass myChar = new MyCharacterClass('@');
+        MyStringClass myString = new MyStringClass("OWONA");
+
+        System.out.println(myInt.getX());
+        System.out.println(myDouble.getX());
+        System.out.println(myChar.getX());
+        System.out.println(myString.getX());
+
+        // We are going to create a generic class to hold all the 4 classes above
+        MyGenericClass<Integer, Character> myIntG = new MyGenericClass<>(1,'A');
+        MyGenericClass<Double, Double> myDoubleG = new MyGenericClass<>(3.14,1.01);
+        MyGenericClass<Character, Integer> myCharG = new MyGenericClass<>('@',3);
+        MyGenericClass<String, Character> myStringG = new MyGenericClass<>("OWONA",'X');
+
+        System.out.println(myIntG.getY());
+        System.out.println(myDoubleG.getY());
+        System.out.println(myCharG.getY());
+        System.out.println(myStringG.getY());
+
+        // Same thing as a hashmap
+
+
     }
 
     // print the content of different arrays of type Thing
