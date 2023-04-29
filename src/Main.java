@@ -438,7 +438,36 @@ public class Main {
         frame.add(label);
         frame.pack();*/
 
-        // Handle : Panels
+        // Handle : JPanels
+        /*ImageIcon icon = new ImageIcon("image.jpg");
+
+        JLabel label = new JLabel();
+        label.setText("Hi");
+        label.setIcon(icon);
+
+        JPanel redPanel = new JPanel();
+        redPanel.setBackground(Color.red);
+        redPanel.setBounds(0,0, 250,250);
+
+        JPanel yellowPanel = new JPanel();
+        yellowPanel.setBackground(Color.yellow);
+        yellowPanel.setBounds(250,0, 250,250);
+
+        JPanel greenPanel = new JPanel();
+        greenPanel.setBackground(Color.green);
+        greenPanel.setBounds(0,250, 500,250);
+        greenPanel.add(label);
+        greenPanel.setLayout(new BorderLayout());
+
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(null);
+        frame.setSize(750,750);
+        frame.setVisible(true);
+        // add the panels to the frame
+        frame.add(redPanel);
+        frame.add(yellowPanel);
+        frame.add(greenPanel);*/
     }
     //Methods in java
     static void helloWorld(String name, int age){
