@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.io.*;
 
@@ -408,7 +409,36 @@ public class Main {
         frame.setIconImage(image.getImage());*/
 
         // new MyFrame();
+        // Handle : JLabel
 
+        /*ImageIcon image = new ImageIcon("image.jpg");
+        Border border = BorderFactory.createLineBorder(Color.yellow,5);
+
+        JLabel label = new JLabel();
+        label.setText("Edouard do you even code ?"); // Set text of label
+        label.setIcon(image);
+        label.setHorizontalTextPosition(JLabel.CENTER); // set text LEFT, CENTER ... of imageIcon
+        label.setVerticalTextPosition(JLabel.TOP); // set text TOP, CENTER, BOTTOM of imageIcon
+        label.setForeground(Color.BLACK);
+        label.setFont(new Font("Garamond", Font.BOLD,20)); // set font of text
+        label.setIconTextGap(50); // set gap of text to image
+        label.setBackground(Color.GRAY); //
+        label.setOpaque(true);
+        label.setBorder(border); // set a border for our Label
+        label.setVerticalAlignment(JLabel.CENTER); // set vertical position of the content of our label
+        label.setHorizontalAlignment(JLabel.CENTER); // set horizontal position of the content of our label
+        // label.setBounds(100,100,250,250); // set x,y position within frame as well as dimensions
+
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // frame.setSize(500,500);
+        // frame.setResizable(false);
+        // frame.setLayout(null);
+        frame.setVisible(true);
+        frame.add(label);
+        frame.pack();*/
+
+        // Handle : Panels
     }
     //Methods in java
     static void helloWorld(String name, int age){
