@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Panels">
+    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Panels and Frames">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682804875462</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Handle: Panels and Frames">
+      <created>1682806331858</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682806331858</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,7 +225,8 @@
     <MESSAGE value="Handle: File reading, FileReader, FileWriter" />
     <MESSAGE value="Handle: JFrame objects" />
     <MESSAGE value="Handle: Panels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle: Panels" />
+    <MESSAGE value="Handle: Panels and Frames" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle: Panels and Frames" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

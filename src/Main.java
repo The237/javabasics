@@ -468,7 +468,37 @@ public class Main {
         frame.add(redPanel);
         frame.add(yellowPanel);
         frame.add(greenPanel);*/
+
+        // Generics
+        Integer[] intArray = {1,2,3,4,5};
+        Double[] doubleArray = {5.5,4.4,3.3,2.2,1.1};
+        Character[] charArray = {'A', 'E','D','K','P'};
+        String[] stringArray = {"A", "E","D" ,"M"};
+        // Goal of generics, create a unique method that can handle the
+        // print of that 4 arrays, not 4 (one for each array data type)
+        //displayArray(intArray);
+        //displayArray(charArray);
+        //displayArray(doubleArray);
+        //displayArray(stringArray);
+
+        /*System.out.println(getFirst(intArray));
+        System.out.println(getFirst(charArray));
+        System.out.println(getFirst(doubleArray));
+        System.out.println(getFirst(stringArray));*/
     }
+
+    // print the content of different arrays of type Thing
+    public static <Thing> void displayArray(Thing[] array){
+        for(Thing x: array){
+            System.out.print(x+" ");
+        }
+        System.out.println();
+    }
+
+    public static <Thing> Thing getFirst(Thing[] array){
+        return array[0];
+    }
+
     //Methods in java
     static void helloWorld(String name, int age){
         System.out.println("Hello "+name+ " you're "+age+" old");
