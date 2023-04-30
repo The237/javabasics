@@ -1,4 +1,5 @@
 import Serializer.User;
+import Threads.MyThread;
 import generics.*;
 
 import javax.swing.*;
@@ -12,7 +13,7 @@ import java.util.Timer;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         // first test
         /*System.out.print("Hello World");
         // variables
@@ -576,6 +577,28 @@ public class Main {
         // timer.schedule(task, date.getTime());
         // timer.scheduleAtFixedRate(task,  0, 100);
         timer.scheduleAtFixedRate(task,  date.getTime(), 1000);*/
+
+        // Threads
+        /*System.out.println(Thread.activeCount());
+        System.out.println(Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getPriority());
+        System.out.println(Thread.currentThread().isAlive());*/
+
+        /*for(int i=3;i>0;i--){
+            System.out.println(i);
+            Thread.sleep(1000);
+        }
+        System.out.println("You are done !");*/
+
+        // create a second thread along our main thread
+        /*MyThread thread2 = new MyThread();
+        thread2.setDaemon(true);
+        thread2.start();
+        System.out.println(thread2.isAlive());
+        thread2.setName("Second thread");
+        // System.out.println(thread2.getName());
+        // System.out.println(thread2.getPriority());
+        // System.out.println(Thread.activeCount());*/
     }
 
     // print the content of different arrays of type Thing
