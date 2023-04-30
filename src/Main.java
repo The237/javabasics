@@ -1,4 +1,5 @@
 import Serializer.User;
+import Threads.MyRunnable;
 import Threads.MyThread;
 import generics.*;
 
@@ -599,6 +600,22 @@ public class Main {
         // System.out.println(thread2.getName());
         // System.out.println(thread2.getPriority());
         // System.out.println(Thread.activeCount());*/
+
+        // Multi-threading
+        MyThread thread1 = new MyThread();
+
+        // Second manner of thread creation because with that manner, our runnable class can implements multiple
+        // interfaces, but cannot extend multiple classes
+        MyRunnable runnable1 = new MyRunnable();
+        Thread thread2 = new Thread(runnable1);
+
+        thread1.start();
+        thread1.join(5000); // calling thread (ex. main or thread2) wait 5 second until the specified thread dies
+        thread2.start();
+        // although there is an division by o Exception in the main thread, the two thread above will
+        // continue to run
+        // System.out.println(1/0);
+
     }
 
     // print the content of different arrays of type Thing

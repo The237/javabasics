@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Timers and scheduled tasks">
-      <change afterPath="$PROJECT_DIR$/src/Threads/MyThread.java" afterDir="false" />
+    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Threads basics">
+      <change afterPath="$PROJECT_DIR$/src/Threads/MyRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/MyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682814342874</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Handle: Threads basics">
+      <created>1682881732362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682881732362</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,19 +276,20 @@
     <MESSAGE value="Handle: Generic Classes" />
     <MESSAGE value="Handle: Serialization and Deserialization" />
     <MESSAGE value="Handle: Timers and scheduled tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle: Timers and scheduled tasks" />
+    <MESSAGE value="Handle: Threads basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle: Threads basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>48</line>
+          <line>49</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
