@@ -5,7 +5,9 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.io.*;
-
+import java.util.Calendar;
+import java.util.TimerTask;
+import java.util.Timer;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -536,13 +538,44 @@ public class Main {
         System.out.println("object infos saved ! :)");*/
 
         // Deserialization
-        User user = null;
+        /*User user = null;
         FileInputStream fileIn = new FileInputStream("userInfos.ser");
         ObjectInputStream in = new ObjectInputStream(fileIn);
         user = (User) in.readObject();
         in.close();
         fileIn.close();
-        System.out.println(ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID());
+        System.out.println(ObjectStreamClass.lookup(user.getClass()).getSerialVersionUID());*/
+
+        // Timer and TimerTask
+        /*Timer timer = new Timer();
+
+        TimerTask task = new TimerTask() {
+            int counter = 10;
+            @Override
+            public void run() {
+                if(counter>0){
+                    System.out.println(counter+ " seconds");
+                    counter--;
+                }else {
+                    System.out.println("Happy New !!!");
+                    timer.cancel();
+                }
+            }
+        };
+
+        Calendar date = Calendar.getInstance();
+        date.set(Calendar.YEAR, 2023);
+        date.set(Calendar.MONTH, Calendar.APRIL);
+        date.set(Calendar.DAY_OF_MONTH, 30);
+        date.set(Calendar.HOUR_OF_DAY, 1);
+        date.set(Calendar.MINUTE, 22);
+        date.set(Calendar.SECOND, 50);
+        date.set(Calendar.MILLISECOND, 0);
+
+        // timer.schedule(task,0);
+        // timer.schedule(task, date.getTime());
+        // timer.scheduleAtFixedRate(task,  0, 100);
+        timer.scheduleAtFixedRate(task,  date.getTime(), 1000);*/
     }
 
     // print the content of different arrays of type Thing
