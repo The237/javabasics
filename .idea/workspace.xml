@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: Threads basics">
-      <change afterPath="$PROJECT_DIR$/src/Threads/MyRunnable.java" afterDir="false" />
+    <list default="true" id="52d82482-cae0-48c8-a5c3-c91952e3df43" name="Changes" comment="Handle: MultiThreading basics">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Threads/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads/MyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="2OmMqumvLjOYFI41Dtepyclzip6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,8 +43,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Codes/Java/HelloWorld/src",
-    "onboarding.tips.debug.path": "D:/Codes/Java/HelloWorld/src/Main.java"
+    "last_opened_file_path": "D:/",
+    "onboarding.tips.debug.path": "D:/Codes/Java/HelloWorld/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -253,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682881732362</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Handle: MultiThreading basics">
+      <created>1682884219654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682884219654</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +290,8 @@
     <MESSAGE value="Handle: Serialization and Deserialization" />
     <MESSAGE value="Handle: Timers and scheduled tasks" />
     <MESSAGE value="Handle: Threads basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handle: Threads basics" />
+    <MESSAGE value="Handle: MultiThreading basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle: MultiThreading basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

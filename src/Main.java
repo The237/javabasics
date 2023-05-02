@@ -602,7 +602,7 @@ public class Main {
         // System.out.println(Thread.activeCount());*/
 
         // Multi-threading
-        MyThread thread1 = new MyThread();
+        /*MyThread thread1 = new MyThread();
 
         // Second manner of thread creation because with that manner, our runnable class can implements multiple
         // interfaces, but cannot extend multiple classes
@@ -614,7 +614,7 @@ public class Main {
         thread2.start();
         // although there is an division by o Exception in the main thread, the two thread above will
         // continue to run
-        // System.out.println(1/0);
+        // System.out.println(1/0);*/
 
     }
 
